@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/Project/Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.menu-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+    list-style: none;
+}
+
+
+.menu-main a{
+    text-decoration: none;
+}
+
+.social a img{
+    height: 50px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.product{
+    margin-top: 100px;
+    text-align: center;
+    border:0px solid;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 25px 20px 15px rgba(0,0,0,0.5);
+    background-color: white;
+    transition: transform ease 0.5s;
+    
+
+}
+
+.product:hover{
+    transform: scale(1.1);
+}
+
+.product:hover p{
+    color: rgb(57, 101, 243);
+    text-decoration: underline;
+}
+
+.product:hover h1{
+    text-decoration: underline;
+}
+
+.product img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.product h1{
+    font-size: 20px;
+    color: rgb(57, 101, 243);
+}
+
+
+.product p{
+    font-weight: bold;
+}
+
+.buy{
+    background-color:rgb(57, 101, 243);
+    padding: 5px;
+    margin: 3px 75px;
+    border-radius: 30px;
+}
+
+.buy a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+
+footer{
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    color: gray;
+}
+
+
+.shoe{
+    display: flex;
+    
+}
+
+.img img{
+    width: 800px;
+    height: 725px;
+}
+
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 35px;
+    color: rgb(57, 101, 243);
+}
+
+.text select{
+    width: 52px;
+}
+
+.text a{
+    margin-top: 25px;
+    background-color: rgb(57, 101, 243);
+    width: 85px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transition: transform ease 0.5s;
+}
+
+
+.text a:hover{
+    transform: scale(1.2);
+}
+
+.Info ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+.Info ul li{
+    font-size: 18px;
+}
+
+.Info h1{
+    color:  rgb(57, 101, 243);
+    font-size: 30px;
+}
