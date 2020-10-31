@@ -8,6 +8,7 @@ body{
     position: relative;
 }
 
+
 .menu{
     position: fixed;
     width: 100%;
@@ -70,6 +71,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     height: 500px;
+    animation: RollIn 2s;
 }
 
 .product{
@@ -147,10 +149,11 @@ footer p{
 
 .shoe{
     display: flex;
+    animation: RollIn 1.5s;
 }
 
 .img img{
-    width: 800px;
+    width: 775px;
     height: 725px;
 }
 
@@ -217,6 +220,7 @@ footer p{
     text-align: center;
     width: 100%;
     margin-top: 80px;
+    animation: RollIn 2s;
 }
 
 
@@ -236,3 +240,13 @@ footer p{
     font-size: 20px;
 }
 
+@keyframes RollIn{
+    0% {
+        opacity: 0;
+        transform: translate3d(-10%, 0, 0) ;
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
