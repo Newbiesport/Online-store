@@ -44,12 +44,19 @@ body{
 }
 
 
+.h1{
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
 .Slides{
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
     align-items: center; 
-    margin-top: 75px;
+    margin-top: 25px;
+    margin-bottom: 50px;
     animation: RollIn 2s;
 }
 
@@ -158,6 +165,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 footer p{
     color: gray;
