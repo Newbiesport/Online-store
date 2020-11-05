@@ -44,6 +44,23 @@ body{
 }
 
 
+.Slides{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 75px;
+    animation: RollIn 2s;
+}
+
+.Slide {
+    display: none;
+    height: 675px;
+    width: 750px
+}
+
+
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -74,7 +91,7 @@ body{
     animation: RollIn 2s;
 }
 
-.product{
+.products{
     margin-top: 100px;
     text-align: center;
     border:0px solid;
@@ -87,33 +104,33 @@ body{
 
 }
 
-.product:hover{
+.products:hover{
     transform: scale(1.1);
 }
 
-.product:hover p{
+.products:hover p{
     color: rgb(57, 101, 243);
     text-decoration: underline;
 }
 
-.product:hover h1{
+.products:hover h1{
     text-decoration: underline;
 }
 
-.product img{
+.products img{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 200px;
 }
 
-.product h1{
+.products h1{
     font-size: 20px;
     color: rgb(57, 101, 243);
 }
 
 
-.product p{
+.products p{
     font-weight: bold;
 }
 
@@ -147,8 +164,9 @@ footer p{
 }
 
 
-.shoe{
+.product{
     display: flex;
+    margin-top: 50px;
     animation: RollIn 1.5s;
 }
 
