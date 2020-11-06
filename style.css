@@ -161,7 +161,7 @@ body{
 footer{
     margin-top: 50px;
     text-align: center;
-    background-color: rgb(71, 66, 66);
+    background-color: lightgray;
     bottom: 0;
     height: 75px;
     width: 100%;
@@ -277,6 +277,12 @@ footer{
 
 .about-us-text h1{
     color:  rgb(57, 101, 243);
+}
+
+.about-us-text a{
+    text-decoration: none;
+    animation: rainbow 15s;
+    animation-iteration-count: infinite;
 }
 
 .about-us-text p{
