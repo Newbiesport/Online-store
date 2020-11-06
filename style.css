@@ -4,6 +4,7 @@ body{
     background: url("Images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
 }
@@ -48,6 +49,7 @@ body{
     margin-top: 80px;
     width: 100%;
     text-align: center;
+    animation: RollIn 2s;
 }
 
 .Slides{
@@ -166,6 +168,8 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 footer p{
     color: gray;
