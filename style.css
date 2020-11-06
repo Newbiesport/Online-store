@@ -174,12 +174,13 @@ footer{
 
 .footer-items{
     color: white;
+    font-size: 15px;
 }
 
 .footer-logo{
     display: flex;
     justify-content: space-evenly;
-    width: 25%;
+    width: 30%;
 }
 
 .footer-logo img{
