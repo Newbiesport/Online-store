@@ -161,9 +161,9 @@ body{
 footer{
     margin-top: 50px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(71, 66, 66);
     bottom: 0;
-    height: 100px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -173,7 +173,7 @@ footer{
 }
 
 .footer-items{
-    color: rgb(51, 49, 49);
+    color: white;
 }
 
 
@@ -283,6 +283,32 @@ footer{
     font-size: 20px;
 }
 
+
+.thanks-you{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-you h1{
+    animation: rainbow 15s;
+    animation-iteration-count: infinite
+}
+
+.thanks-you a{
+    text-decoration: none;
+    animation: rainbow 15s;
+    animation-iteration-count: infinite
+}
+
+.thanks-you a:hover{
+    text-decoration: underline;
+}
+
+
+
 @keyframes RollIn{
     0% {
         opacity: 0;
@@ -291,5 +317,71 @@ footer{
     100% {
         opacity: 1;
         transform: none;
+    }
+}
+
+@keyframes rainbow{
+    0% {
+        color: #d65c97;
+    }
+    5% {
+        color: #5cd666;
+    }
+    10% {
+        color: #a55cd6;
+    }
+    15% {
+        color: #5c7cd6;
+    }
+    20% {
+        color: #d65c7a;
+    }
+    25% {
+        color: #81d65c;
+    }
+    30% {
+        color: #835cd6;
+    }
+    35% {
+        color: #685cd6;
+    }
+    40% {
+        color: #5c9dd6;
+    }
+    45% {
+        color: #5cd670;
+    }
+    50% {
+        color: #d6625c;
+    }
+    55% {
+        color: #d6835c;
+    }
+    60% {
+        color: #d6605c;
+    }
+    65% {
+        color: #be5cd6;
+    }
+    70% {
+        color: #5c8dd6;
+    }
+    75% {
+        color: #95d65c;
+    }
+    80% {
+        color: #d69d5c;
+    }
+    85% {
+        color: #d65c81;
+    }
+    90% {
+        color: #5cd666;
+    }
+    95% {
+        color: #d67e5c;
+    }
+    100% {
+        color: #64d65c;
     }
 }
