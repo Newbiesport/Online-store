@@ -50,6 +50,7 @@ body{
     width: 100%;
     text-align: center;
     animation: RollIn 2s;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Slides{
