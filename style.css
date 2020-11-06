@@ -162,17 +162,29 @@ footer{
     text-align: center;
     background-color: white;
     bottom: 0;
-    height: 25px;
+    height: 100px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
 }
-footer p{
-    color: gray;
+
+.footer-items{
+    color: rgb(51, 49, 49);
+}
+
+
+
+.footer-logo img{
+    height: 50px;
+    margin: 10px;
+    transition: transform ease 0.5s;
+}
+
+.footer-logo img:hover{
+    transform: scale(1.2);
 }
 
 
