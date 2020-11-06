@@ -176,7 +176,11 @@ footer{
     color: white;
 }
 
-
+.footer-logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
 
 .footer-logo img{
     height: 50px;
