@@ -46,6 +46,7 @@ body{
 
 
 .h1{
+    color: rgb(11,58,100);
     margin-top: 80px;
     width: 100%;
     text-align: center;
@@ -67,6 +68,9 @@ body{
     display: none;
     height: 675px;
     width: 750px
+}
+.Slidebutton{
+    cursor: pointer;
 }
 
 
@@ -119,7 +123,7 @@ body{
 }
 
 .products:hover p{
-    color: rgb(57, 101, 243);
+    color: rgb(11,58,100);
     text-decoration: underline;
 }
 
@@ -136,7 +140,8 @@ body{
 
 .products h1{
     font-size: 20px;
-    color: rgb(57, 101, 243);
+    color: rgb(11,58,100);
+    font-family: 'Indie Flower', cursive;
 }
 
 
@@ -145,7 +150,7 @@ body{
 }
 
 .buy{
-    background-color:rgb(57, 101, 243);
+    background-color:rgb(11,58,100);
     padding: 5px;
     margin: 3px 75px;
     border-radius: 30px;
@@ -219,7 +224,7 @@ footer{
 
 .text h1{
     font-size: 35px;
-    color: rgb(57, 101, 243);
+    color: rgb(11,58,100);
 }
 
 .text select{
@@ -228,7 +233,7 @@ footer{
 
 .text a{
     margin-top: 25px;
-    background-color: rgb(57, 101, 243);
+    background-color:rgb(11,58,100);
     width: 85px;
     border-radius: 25px;
     font-size: 30px;
@@ -256,7 +261,7 @@ footer{
 }
 
 .Info h1{
-    color:  rgb(57, 101, 243);
+    color:  rgb(11,58,100);
     font-size: 30px;
 }
 
@@ -282,7 +287,7 @@ footer{
 }
 
 .about-us-text h1{
-    color:  rgb(57, 101, 243);
+    color:  rgb(11,58,100);
 }
 
 .about-us-text a{
