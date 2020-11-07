@@ -305,6 +305,8 @@ footer{
 }
 
 .thanks-you h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
     animation: rainbow 15s;
     animation-iteration-count: infinite
 }
@@ -312,7 +314,9 @@ footer{
 .thanks-you a{
     text-decoration: none;
     animation: rainbow 15s;
-    animation-iteration-count: infinite
+    animation-iteration-count: infinite;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
 }
 
 .thanks-you a:hover{
