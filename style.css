@@ -74,6 +74,27 @@ body{
 }
 
 
+.home-products{
+    margin-bottom: 200px;
+    color: rgb(11,58,100);
+}
+
+.home-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-product a img{
+    height: 250px;
+    transition: transform ease 0.5s;
+}
+
+.home-product a img:hover{
+    transform: scale(1.1);
+}
+
+
 
 .dropdown-content {
     display: none;
@@ -103,6 +124,7 @@ body{
     flex-wrap: wrap;
     height: 500px;
     animation: RollIn 2s;
+    margin-bottom: 50px;
 }
 
 .products{
@@ -165,7 +187,6 @@ body{
 
 
 footer{
-    margin-top: 50px;
     text-align: center;
     background-color: lightgray;
     bottom: 0;
@@ -204,6 +225,7 @@ footer{
     display: flex;
     margin-top: 50px;
     animation: RollIn 1.5s;
+    
 }
 
 .img img{
