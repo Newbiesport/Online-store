@@ -379,6 +379,11 @@ footer{
 }
 
 
+.container label{
+    color: rgb(11,58,100)
+}
+
+
 
 
 @keyframes RollIn{
