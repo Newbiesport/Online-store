@@ -36,24 +36,27 @@
     </div>
 
     <!-- Main -->
-    <div class="about-us">
-        <img src="Images/Logo.png" alt="Logo">
-
-        <div class="about-us-text">
-            <h1>NEWBIE SPORT</h1>
-            <h1>Member:</h1>
-            <a href="https://www.facebook.com/hieuminh.phan.94" target="_blank"><p>Phan Hiếu Minh</p></a>
-            <a href="https://www.facebook.com/triet.truongminh.984" target="_blank"><p>Trương Minh Triết</p></a>
-            <a href="https://www.facebook.com/myan.macvi" target="_blank"><p>Mạc Vi Mỹ An</p></a>
-            <a href="https://www.facebook.com/nhatminh.leba.77" target="_blank"><p>Lê Bá Nhật Minh</p></a>
-            <h1>Contact:</h1>
-            <p>newbiesport2020@gmail.com</p>
-            <h1>Day of foundation:</h1>
-            <p>24/10/2020</p>
-        </div>
-    </div>
+    <div class="container">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
     
-
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="vietnam">Vietnam</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input class="Sumbit" type="submit" value="Submit">
+  
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer">

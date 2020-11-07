@@ -351,6 +351,35 @@ footer{
 }
 
 
+.container{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+    
+}
+
+.container input{
+    width: 35%;
+    height: 40px;
+    
+}
+
+.container textarea{
+    width: 40%;
+    height: 35px;
+}
+
+.container .Sumbit{
+    width: 80px;
+}
+
+
+
 
 @keyframes RollIn{
     0% {
