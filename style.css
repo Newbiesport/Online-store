@@ -179,7 +179,7 @@ body{
 }
 
 .buy a{
-    color: black;
+    color: white;
     font-size: 18px;
     text-decoration: none;
     font-family: 'Merriweather', serif;
@@ -225,7 +225,6 @@ footer{
     display: flex;
     margin-top: 50px;
     animation: RollIn 1.5s;
-    
 }
 
 .img img{
@@ -259,7 +258,7 @@ footer{
     width: 85px;
     border-radius: 25px;
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: transform ease 0.5s;
     font-family: 'Merriweather', serif;
@@ -314,6 +313,7 @@ footer{
 
 .about-us-text a{
     text-decoration: none;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     animation: rainbow 15s;
     animation-iteration-count: infinite;
 }
