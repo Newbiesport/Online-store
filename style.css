@@ -307,13 +307,17 @@ footer{
     
 }
 
+#about-us-name{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 45px;
+}
+
 .about-us-text h1{
     color:  rgb(11,58,100);
 }
 
 .about-us-text a{
     text-decoration: none;
-    font-family: 'Big Shoulders Stencil Text', cursive;
     animation: rainbow 15s;
     animation-iteration-count: infinite;
 }
