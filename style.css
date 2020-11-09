@@ -287,6 +287,29 @@ footer{
 }
 
 
+.other-product{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.other-product a img{
+    height: 200px;
+    width: 230px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.other-product p{
+    width: 230px;
+    font-size: x-large;
+    animation: rainbow 15s;
+    animation-iteration-count: infinite;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
 
 .about-us{
     display: flex;
