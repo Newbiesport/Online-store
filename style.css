@@ -125,12 +125,13 @@ body{
     display: block;
 }
 
+
 .main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    height: 500px;
+    height: 600px;
     animation: RollIn 2s;
     margin-bottom: 50px;
 }
@@ -140,7 +141,7 @@ body{
     text-align: center;
     border:0px solid;
     border-radius: 20px;
-    width: 200px;
+    width: 275px;
     box-shadow: 25px 20px 15px rgba(0,0,0,0.5);
     background-color: white;
     transition: transform ease 0.5s;
@@ -165,7 +166,7 @@ body{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 200px;
+    height: 275px;
 }
 
 .products h1{
