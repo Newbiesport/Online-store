@@ -45,9 +45,9 @@ function myFunction() {
                         'ADICROSS BALL CASE', 'ADIDAS ATHLETICS PACK DAD CAP', 'AEROREADY VISOR', 'CLASSIC BOXY BACKPACK',
                         'CUSHIONED LOW-CUT SOCK 3 PAIRS', 'PARKHOOD WAIST BAG', 'TOUR TWO-WAY ZIP POUCH', 'WIND.RDY BASEBALL CAP',];
 
-    var links = document.querySelectorAll(".other-product-a"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả links
-    var imgs = document.querySelectorAll(".other-product-a img"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả hình 
-    var contents = document.querySelectorAll(".other-product-p"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả content 
+    var links = document.querySelectorAll(".other-product-a"); 
+    var imgs = document.querySelectorAll(".other-product-a img"); 
+    var contents = document.querySelectorAll(".other-product-p"); 
     
 
 

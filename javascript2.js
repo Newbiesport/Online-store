@@ -23,9 +23,9 @@ var setUpContents = ['LITE RACER 2.0 SHOES', 'NEMEZIZ 19.3 FIRM GROUND BOOTS', '
                     'FITBOUNCE TRAINERS', 'GRAND COURT SHOES', 'PREDATOR 20.3 FIRM GROUND BOOTS', 'ULTRABOOST 20 SHOES',
                     ];
         
-var links = document.querySelectorAll(".home-product-a-shoes"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả links
-var imgs = document.querySelectorAll(".home-product-a-shoes img"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả hình 
-var contents = document.querySelectorAll(".home-product-p-shoes"); //querySelectorAll, lấy nhiều giá trị, như cái này là lấy tất cả content 
+var links = document.querySelectorAll(".home-product-a-shoes");
+var imgs = document.querySelectorAll(".home-product-a-shoes img"); 
+var contents = document.querySelectorAll(".home-product-p-shoes"); 
             
         
         
