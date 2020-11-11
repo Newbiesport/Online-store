@@ -90,6 +90,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .home-product a img{
@@ -211,7 +212,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
+    position: static;
     
 }
 
