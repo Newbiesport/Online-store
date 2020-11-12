@@ -22,8 +22,13 @@ body{
     left:0;
     z-index: 1;
 }
-.logo img{
+
+.logo{
     height: 70px;
+}
+
+.logo img{
+    height: 100%;
     width: 70px;
 }
 
