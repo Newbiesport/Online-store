@@ -444,7 +444,7 @@ footer{
 
 
 .container{
-    height: 95%;
+    height: 100vh;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
