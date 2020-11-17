@@ -343,6 +343,7 @@ footer{
 
 .other-products{
     animation: RollIn 1.5s;
+    text-align: center;
 }
 
 .other-products h1{
